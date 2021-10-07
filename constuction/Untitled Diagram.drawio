@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T10:49:44.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="LMRdmIlXwMz2JuwvQeeH" version="15.4.3" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-07T11:21:37.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="1w3-9p8Gt9-AWvbdeR2n" version="15.4.3" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1269" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-1" value="function &amp;nbsp;add(a, b){&lt;br&gt;return a+b;&lt;br&gt;}&lt;br&gt;&lt;br&gt;console.log(add(&#39;2&#39;,&#39;3&#39;));&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFB366;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-3" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="lZHqk73Y39Q96WDbxgAT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="350" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="473" y="290" />
+              <mxPoint x="350" y="290" />
+              <mxPoint x="350" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-4" value="Unwanted behavior at runtime" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFB366;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-5" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFB366;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="460" y="385" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-6" value="Mitigation Strategies" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-7" value="add if check to add function to validate &amp;nbsp;&amp;amp; Sanitise user input&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-8" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-9" value="Developers can still write invalid code" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="590" y="560" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-10" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="460" y="557.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHqk73Y39Q96WDbxgAT-11" value="Typescript is a &quot;tool&quot; that helps developers write better code!" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;fillColor=#FFFF66;" vertex="1" parent="1">
+          <mxGeometry x="170" y="545" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
